@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'monfamily',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },

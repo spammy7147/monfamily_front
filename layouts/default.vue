@@ -1,27 +1,28 @@
-<template>
-  <div>
-    <Nuxt />
-  </div>
+ <template>
+   <div>
+     <header>
+        <Header />
+     </header>
+
+     <main>
+       <Nuxt />
+     </main>
+
+     <footer>
+      <Footer />
+     </footer>
+   </div>
 </template>
 
 <style>
 html {
   font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
     sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  background-color: #1b1c1e;
 }
 
 *,
@@ -60,3 +61,10 @@ html {
   background-color: #35495e;
 }
 </style>
+ <script>
+ import Header from "~/layouts/Header";
+ import Footer from "~/layouts/Footer";
+ export default {
+   components: {Footer, Header}
+ }
+ </script>

@@ -2,9 +2,9 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
+      <h2 class="title">
         monfamily
-      </h1>
+      </h2>
       <div class="links">
         <NuxtLink to="/about">About</NuxtLink>
         <a
