@@ -1,7 +1,8 @@
  <template>
    <div>
      <header>
-        <Header />
+       <Header/>
+       <NavBar/>
      </header>
 
      <main>
@@ -25,12 +26,6 @@ html {
   background-color: #1b1c1e;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
 
 .button--green {
   display: inline-block;
@@ -64,7 +59,8 @@ html {
  <script>
  import Header from "~/layouts/Header";
  import Footer from "~/layouts/Footer";
+ import NavBar from "~/layouts/NavBar";
  export default {
-   components: {Footer, Header}
+   components: {NavBar, Footer, Header}
  }
  </script>
